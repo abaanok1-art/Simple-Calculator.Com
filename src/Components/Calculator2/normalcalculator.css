@@ -12,6 +12,8 @@
     isolation: isolate;
   overflow: hidden;-webkit-backdrop-filter: blur(10px); /* Fixes webkit/chrome production blur artifacts */
   overflow: hidden; /* Prevents inner element shadow bleed */
+  position: relative !important;
+  padding-top: 10px !important;
 }
 .result{
    display: flex !important;
@@ -268,10 +270,10 @@ transition: all 0.5s ease-in-out;
 }
 .screen {
   position: absolute !important;
-  top: 30px !important;
+  top: 25px !important;
   left: 20px !important;
   right: 20px !important;
-  text-align: right !important;
   margin: 0 !important;
-  z-index: 10 !important;
+  text-align: right !important;
+  z-index: 50 !important;
 }
