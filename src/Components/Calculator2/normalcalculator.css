@@ -257,5 +257,7 @@ background-color: yellowgreen;
 transition: all 0.5s ease-in-out;
 }
 .result {
-  transform: translateY(-50px) !important;
+  position: relative !important;
+  top: -80px !important;
+  margin-bottom: -60px !important;
 }
