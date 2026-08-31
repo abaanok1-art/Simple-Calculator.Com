@@ -267,10 +267,9 @@ background-color: yellowgreen;
 transition: all 0.5s ease-in-out;
 }
 .screen {
-  position: relative;
-  top: -40px !important;
+  position: relative !important;
+  top: -80px !important;
   margin-bottom: 0px !important;
-  line-height: 1;
-  z-index: 10;
-  bottom: 50px !important;
+  line-height: 1 !important;
+  z-index: 10 !important;
 }
