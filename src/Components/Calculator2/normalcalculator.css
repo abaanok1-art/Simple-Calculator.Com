@@ -13,7 +13,18 @@
   overflow: hidden;-webkit-backdrop-filter: blur(10px); /* Fixes webkit/chrome production blur artifacts */
   overflow: hidden; /* Prevents inner element shadow bleed */
 }
-
+.result{
+   display: flex !important;
+  flex-direction: column !important;
+  justify-content: flex-end !important;
+  align-items: flex-end !important;
+  min-height: 70px !important;
+  margin-bottom: 12px !important;
+  overflow: hidden !important;
+  word-break: break-all !important;
+  position: relative !important;
+  z-index: 10 !important;
+}
 .outputs {
     display: flex;
     flex-direction: column;

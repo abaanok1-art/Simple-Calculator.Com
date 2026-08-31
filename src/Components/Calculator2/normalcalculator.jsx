@@ -249,7 +249,7 @@ const Calculator1 = () => {
 
                 <div className='outputs'>
                     <h3>{expression || '0'}</h3>
-                    <h1>{result}</h1>
+                    <h1 className='result'>{result}</h1>
                 </div>
 
                 <div className='topbtnparentt'>
