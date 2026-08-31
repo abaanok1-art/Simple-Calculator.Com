@@ -1,0 +1,110 @@
+.Calculator {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+  border: 2px solid cyan;
+  width: fit-content;
+  height: fit-content;
+  padding: 20px 40px 80px 40px;
+  background-color: black;
+  border-radius: 20px;
+  box-shadow: 
+    0 0 30px #00f0ff,
+    0 0 60px #a100ff,
+    0 0 90px #00f0ff;
+}
+
+.Input-Group {
+  display: flex;
+  gap: 20px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 100px;
+  box-shadow: 0px 0px 10px cyan;
+  background-color: grey;
+  color: #fff;
+  text-shadow: 1px 1px #00f0ff;
+  position: relative;
+  top: 20px;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+h2 {
+  font-weight: bolder;
+  font-size: 40px;
+  color: #fff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: relative;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 40px;
+  color: #fff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 5px;
+  width: fit-content;
+  position: relative;
+  top: 40px;
+}
+
+select {
+  box-shadow: 0px 0px 20px cyan;
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px;
+  background-color: grey;
+  color: #fff;
+  font-size: 20px;
+  position: relative;
+  top: 20px;
+}
+
+.calculate{
+  margin-top: 30px;
+  border-color: transparent;
+  background-color: cyan;
+  color: #fff;
+  border: none;
+  padding: 10px 170px 10px 170px;
+  border-radius: 15px;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+  position: relative;
+  top: 20px;
+}
+
+.Author {
+  position: absolute;
+  bottom: 12px;
+  right: 20px;
+  color: grey;
+  font-size: 12px;
+}
+
+.Author p {
+  margin: 0;
+}
+
+.spinner {
+  animation: spinner 0.9s linear infinite;
+  position: relative;
+  top: 40px;
+}
+.history{
+  position: relative;
+  top: 50px;
+}
+@keyframes spinner {
+  100% {
+    transform: rotate(360deg);
+  }
+}
