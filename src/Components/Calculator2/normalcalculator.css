@@ -9,6 +9,9 @@
     height: 600px;
     border-radius: 40px;
     margin-top: 10rem;
+    isolation: isolate;
+  overflow: hidden;-webkit-backdrop-filter: blur(10px); /* Fixes webkit/chrome production blur artifacts */
+  overflow: hidden; /* Prevents inner element shadow bleed */
 }
 
 .outputs {
