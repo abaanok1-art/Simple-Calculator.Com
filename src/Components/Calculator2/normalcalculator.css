@@ -267,9 +267,11 @@ background-color: yellowgreen;
 transition: all 0.5s ease-in-out;
 }
 .screen {
-  position: relative !important;
-  top: -80px !important;
-  margin-bottom: 0px !important;
-  line-height: 1 !important;
+  position: absolute !important;
+  top: 30px !important;
+  left: 20px !important;
+  right: 20px !important;
+  text-align: right !important;
+  margin: 0 !important;
   z-index: 10 !important;
 }
